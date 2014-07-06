@@ -81,6 +81,11 @@ html {
 	font-weight:bold;
 }
 /* Main */
+.main {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
 .google {
 	text-align:center;
 }
@@ -88,7 +93,6 @@ html {
 	width:auto;
 	height:90px;
 	margin-top:220px;
-	margin-left:250px;
 }
 #form {
 	margin-top:15px;
@@ -97,26 +101,23 @@ html {
 	border: 1px solid #D8D8D8; 
 	width:570px;
 	height:25px;
-	margin-left:500px;
 }
 button {
-  margin-top:15px;
-  margin-right:5px;
-  margin-left:5px;
-  padding:8px;
-  border:1px solid #DBDBDB;
-  border-radius:2px;
-  background-color:#F3F3F3;
-  text-align:center;
-  font-weight:bold;
-  font-family:Arial;
-  font-size:11px;
-  color:#444;
-
+	margin-top:15px;
+	padding:8px;
+	border:1px solid #DBDBDB;
+	border-radius:2px;
+	background-color:#F3F3F3;
+	text-align:center;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:11px;
+	color:#444;
 }
 #btn {
-	margin-left:650px;
+	margin-left:165px;
 }
+
 
 /*Footer*/
 
@@ -136,7 +137,7 @@ footer a {
 .ftleft {
 	float:left;
 	margin-top:9px;
-	margin-left:10px;
+	margin-left:-500px;
 }
 .ftleft a:hover {
 	text-decoration: underline;
@@ -144,6 +145,6 @@ footer a {
 .ftright{
 	float:right;
 	margin-top:9px;
-	margin-right:10px;
+	margin-right:-500px;
 }
 
